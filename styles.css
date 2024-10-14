@@ -1,0 +1,41 @@
+.main-index,
+.main-about {
+    background: #789DBC;
+}
+
+.main-contact {
+    background: #FEF9F2;
+    text-align: center
+}
+
+.my-img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Architects Daughter", serif;
+}
+
+.motivate-body {
+    background-color: black;
+}
+
+.motivate-div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+#beach {
+    width: 100%;
+    border: 5px solid white;
+}
+
+.motivate-h1 {
+    text-transform: uppercase;
+}
