@@ -1,5 +1,43 @@
-/* All */
-.main-index,
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #011039;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Architects Daughter", serif;
+}
+
+
+/* ------------------------------
+All
+------------------------------ */
+
+/* .main-index,
 .main-about {
     background: #789DBC;
 }
@@ -17,9 +55,37 @@
 h1 {
     font-size: 40px;
     font-family: "Architects Daughter", serif;
+} */
+
+
+/* ------------------------------
+index.html
+------------------------------ */
+/* header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Motivation Word */
+#header a {
+    display: block;
+}
+
+#header .navi {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* ------------------------------
+motivation-word.html
+------------------------------ */
 .motivate-body {
     background-color: black;
 }
@@ -42,7 +108,10 @@ h1 {
     text-transform: uppercase;
 }
 
-/* My Dall-E */
+
+/* ------------------------------
+my-dall-e.html
+------------------------------ */
 .dalle-first {
     background: purple;
     border: 10px solid black;
